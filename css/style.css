@@ -18,3 +18,51 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Baskerville';
+  font-size: 4em;
+  color: rgb(153,172,166); 
+  border-bottom: 1px solid;
+  border-color: rgb(153,172,166);
+  padding: 5px;
+  margin: 6px;
+  max-width: 100%
+}
+
+h2 {
+  color: rgb(95,100,96);  
+}
+
+p {
+  font-size: .9em;
+}
+
+figure {
+  padding: 0 auto;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: rgb(153,172,166);
+  border-width: 5px;
+}
+
+#press img{
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  font-size: .5em;
+  float: right; 
+}
+
+#press a:hover {
+  border-color: (95,100,96);
+
+}
+
