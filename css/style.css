@@ -18,3 +18,38 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskervile', serif;
+  color: rgb(152,173,166);
+  margin: 5px 0 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+img.cover {
+  border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+  color: rgb(111,127,122);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p a {
+  color: rgb(23,131,187);
+  text-decoration: none;
+}
+
+img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+.footer {
+  text-align: right;
+  font-size: 0.8em;
+  font-color: #555;
+}
