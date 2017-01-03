@@ -18,3 +18,73 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 { 
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 80px;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+header a  {
+ color: rgb(152,173,166);
+ text-decoration: none;
+}
+
+a:hover {
+    color: rgb(110,127,122);
+    background: transparent;
+  }
+
+ #feautured a  {
+    color: #1783bb;
+    text-decoration: none;
+}
+
+#feautured a:hover{
+   text-decoration: underline;
+}
+
+ #feautured img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+#Press {
+  margin-bottom: 20px;
+}
+
+ #Press img {
+  border: 5px rgb(152,173,166) solid;
+  padding: 1px;
+}
+
+ #Press img:hover {
+  border: 5px rgb(110,127,122) solid;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(110,127,122);
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+footer {
+  text-align: right;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+p .small{
+  margin: 0 0 20px 0;
+
+}
